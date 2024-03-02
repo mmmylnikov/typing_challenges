@@ -1,7 +1,16 @@
 from constants import ___
+from typing import Callable
 
 
-def create_user(user_name: ___, user_age: ___, after_created: ___) -> ___:
+class User():
+    user_id: int
+    pass
+
+
+def create_user(
+        user_name: str, user_age: int,
+        after_created: Callable[[int], None]
+        ) -> User | None:  # не уверен на счет User (обявил его сам), как альтернатива использовал бы "bool | None"
     pass
 
 
