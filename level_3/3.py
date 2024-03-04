@@ -2,7 +2,7 @@ from constants import ___
 from typing import Callable
 
 
-class User():
+class User:
     user_id: int
     pass
 
